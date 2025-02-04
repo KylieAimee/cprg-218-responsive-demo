@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(178, 178, 252);
+}
+
+@media screen and (max-width:500px){
+    /*any screen resolution from 0-500px wide*/
+    body{
+        background-color: pink;
+    }
+}
+@media screen and (max-width:400px){
+    body{
+        background-color: rgb(132, 230, 192);
+    }
+}
