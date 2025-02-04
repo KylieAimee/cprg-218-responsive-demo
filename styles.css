@@ -10,6 +10,7 @@ body{
     /*any screen resolution from 0-500px wide*/
     body{
         background-color: pink;
+        font-size: 130%;
     }
 }
 @media screen and (max-width:400px){
