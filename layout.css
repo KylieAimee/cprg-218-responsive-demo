@@ -19,6 +19,10 @@ header{
 main{
     grid-area: main;
 }
+#desktop{
+    background-color: antiquewhite;
+    padding: 1.4rem;
+}
 nav{
     grid-area: nav;
     background-color: aliceblue;
@@ -36,6 +40,10 @@ footer{
         "main"
         "nav"
         "footer";
+        grid-template-columns: 1fr;
     }
     /*display:block;*/
+    #desktop{
+        display: none;
+    }
 }
